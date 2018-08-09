@@ -20,4 +20,4 @@ jobs:
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
     - run: mvn install -DskipTests
     - deploy:
-      command: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle2/scripts/upload)
+        command: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle2/scripts/upload)
